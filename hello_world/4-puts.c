@@ -1,6 +1,10 @@
 #include <stdio.h>
 
-/* Printing a sentence using puts */
+/**
+ * main - Entry point
+ * printing a string
+ * return: Always 0
+ */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
