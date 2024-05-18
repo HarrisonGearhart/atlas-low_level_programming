@@ -15,4 +15,4 @@ char low;
 	putchar('\n');
 
 	return (0);
-}	
+}
