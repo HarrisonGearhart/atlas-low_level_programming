@@ -15,8 +15,14 @@ int main(void)
 	char l;
 
 	for (n = 0; n <= 9; n++)
+	{	
 		putchar(d);
+	}
 	for (l = 'a'; l <='f'; l++)
+	{	
 		putchar('l');
+	}
 	putchar('\n');
+
+	return (0);
 } 
