@@ -2,8 +2,8 @@
 
 /**
  * main - entry point
- * Description - Prints _putchar followed by new line
- * Return - Always 0 (Succes)
+ * Description: Prints _putchar followed by new line
+ * Return: Always 0 (Succes)
  */
 int main(void)
 {
