@@ -6,6 +6,7 @@
  * @x: x axis of square
  * @y: y axis of square
  * Return: Void
+*/
 
 void print_square(int size)
 
