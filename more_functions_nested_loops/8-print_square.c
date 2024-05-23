@@ -3,8 +3,6 @@
 /**
  * print_square - prints a square
  * @size: size of the square
- * @x: x axis of square
- * @y: y axis of square
  * Return: Void
 */
 
