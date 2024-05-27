@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-  * _puts - Prints every other character of a string
+  * puts - Prints every other character of a string
   * @str: The string
   * Return: Void
   */
@@ -10,7 +10,7 @@ void puts2(char *str)
 {
 	int i;
 	int j = 0;
-	
+
 	while (str[j] != '\0')
 	{
 		j++;
