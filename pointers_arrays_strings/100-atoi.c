@@ -27,7 +27,7 @@ int _atoi(char *s)
 		}
 		if (i == 1)
 		{
-			c++
+			c++;
 		}
 	}
 	u *= m;
