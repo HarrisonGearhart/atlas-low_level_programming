@@ -19,7 +19,7 @@ int _atoi(char *s)
 		{
 			m = -1;
 		}
-		while (s[c] >= 0 && s[c] <= 9);
+		while (s[c] >= 48 && s[c] <= 57);
 		{
 			i = 1;
 			u = (u * 10) + (s[c] - '\0');
