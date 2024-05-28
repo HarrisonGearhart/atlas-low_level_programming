@@ -6,32 +6,34 @@
  * Return: integer. 0 if no integer in string
 */
 
-int _atoi(char *s)
+int _atoi(char *s) 
 {
-	int c = 0;
-	unsigned int u = 0;
-	int m = 1;
+	int sign = 1;
+	int result = 0;
 	int i = 0;
 
-	while (s[c])
+	if (s[0] == '-') 
 	{
-		if (s[c] == 45)
-		{
-			m = -1;
-		}
-		while (s[c] >= 0 && s[c] <= 9)
-		{
-			i = 1;
-			u = (u * 10) + (s[c] - '\0');
-			c++;
-		}
-		if (i == 1)
+		sign = -1;
+  		i++;
+	}
+	if (s[0] == '+') 
+	{
+		i++;
+	}
+	while (s[i] != '\0') 
+	{
+  		if (s[i] >= '0' && s[i] <= '9') 
+ 		{
+			result = result * 10 + (s[i] - '0');
+		} 
+		else 
 		{
 			break;
 		}
-		c++;
+		i++;
 	}
-	u *= m;
+	result = result * sign;
 
-	return (u);
+	return result;
 }
