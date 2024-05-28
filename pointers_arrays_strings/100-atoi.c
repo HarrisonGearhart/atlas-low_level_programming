@@ -27,8 +27,9 @@ int _atoi(char *s)
 		}
 		if (i == 1)
 		{
-			c++;
+			break;
 		}
+		c++;
 	}
 	u *= m;
 
