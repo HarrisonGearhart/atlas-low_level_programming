@@ -5,7 +5,7 @@
  * @str: char variable
  * Return: Always 0
 */
-char *leet(char *)
+char *leet(char *str)
 {
 	int a, b;
 	char *alpha = "aeotlAEOTL";
