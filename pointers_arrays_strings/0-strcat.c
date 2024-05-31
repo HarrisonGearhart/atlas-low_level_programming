@@ -7,7 +7,7 @@
  * Return: pointer to resulting string 'dest'
  */
 
-char *strcat(char *dest, char *src)
+char *_strcat(char *dest, char *src)
 {
 	int i, c;
 
@@ -16,7 +16,7 @@ char *strcat(char *dest, char *src)
 	for (c = 0; src[c] != '\0'; c++)
 	{
 		dest [i] = src [c];
-		i++
+		i++;
 	}
 	dest [i] = '\0';
 	return (dest);
