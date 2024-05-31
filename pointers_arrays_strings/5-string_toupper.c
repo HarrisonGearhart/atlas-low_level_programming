@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * str_toupper - changing string to uppercase
+ * string_toupper - changing string to uppercase
  * @strs: string pointer
  * Return: Always (0)
 */
