@@ -1,12 +1,13 @@
-#include "main.h"
-
-/**
- * reset_to_98 - updates the value it points to to 98
- * @n: pointer to n
- * Return: Void
-*/
-
-void reset_to_98(int *n)
+#include <stdio.h>
+char *_strchr(char *s, char c) 
 {
-	*n = 98;
+	while (*s != '\0') 
+	{
+		if (*s == c) 
+		{
+  			return s;
+  		}
+  			s++;
+  	}
+ 	return (0);
 }
