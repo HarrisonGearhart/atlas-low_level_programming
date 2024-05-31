@@ -19,5 +19,5 @@ char *leet(char *str)
 				str[a] = integer[b];
 		}
 	}
-	return(str);
+	return (str);
 }
