@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-#include <std.lib>
+#include <stdlib>
 /**
  * main - prints name of the function
  * @argc: # of arguments 
