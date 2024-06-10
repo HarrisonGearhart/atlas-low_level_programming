@@ -3,7 +3,7 @@
 #include <stdlib.h>
 /**
  * main - prints name of the function
- * @argc: # of arguments 
+ * @argc: # of arguments
  * @argv: pointer that contains the arrays of arguments
  * Return: 0
 */
