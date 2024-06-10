@@ -4,7 +4,7 @@
 /**
  * main - prints all arguments recieved
  * @argc: amount of arguments passed through
- * @argv: pointer that contains arrays of arguments 
+ * @argv: pointer that contains arrays of arguments
  * Return: 0
 */
 int main(int argc, char *argv[])
