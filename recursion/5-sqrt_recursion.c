@@ -15,7 +15,7 @@ int find_sqrt(int num, int root)
 	{
 		return (-1);
 	}
-	return (sqrt_check(root + 1, num)
+	return (find_sqrt(root + 1, num);
 }
 /**
  * _sqrt_recursion - returns natural sqrt of number
