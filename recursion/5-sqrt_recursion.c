@@ -1,13 +1,13 @@
 #include "main.h"
 /**
- * int find_sqrt - finds natural square root of a given number 
+ * int find_sqrt - finds natural square root of a given number
  * @num: number to find sqrt of
- * @root: root being tested 
- * Return: int value or -1 
+ * @root: root being tested
+ * Return: int value or -1
 */
 int find_sqrt(int num, int root)
 {
-	if ((root * root == num))
+	if (root * root == num)
 		{
 			return (root);
 		}
