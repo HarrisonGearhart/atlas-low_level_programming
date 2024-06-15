@@ -12,7 +12,7 @@ char *_strdup(char *str)
 	int y = 1;
 
 	if (str == NULL)
- 	return (NULL);
+	return (NULL);
 
 	while (str[y])
 	{
@@ -20,11 +20,11 @@ char *_strdup(char *str)
 	}
 	s = malloc((sizeof(char) * y) + 1);
 	if (s == NULL)
-		return (NULL); 
+		return (NULL);
 	while (x < y)
 	{
 		s[x] = str[x];
 		x++;
 	}
-	return(s);
+	return (s);
 }
