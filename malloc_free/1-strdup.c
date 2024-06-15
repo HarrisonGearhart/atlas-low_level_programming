@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * _strdup - duplicates string
- * @str - original string
+ * @str: original string
  * Return: pointer to duplicated string/NULL if fail
 */
 char *_strdup(char *str)
