@@ -4,7 +4,7 @@
  * alloc_grid - returns 2 dimensional array of ints
  * @width: width input
  * @height: width output
- * Return: NULL on fail or if w/h is 0. 
+ * Return: NULL on fail or if w/h is 0.
 */
 int **alloc_grid(int width, int height)
 {
