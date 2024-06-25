@@ -13,6 +13,8 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	va_list numbers;
 	unsigned int index = 0;
 
+	va_start(numbers, n);
+
 	for (index = 0; index < n; index++)
 	{
 		printf("%d", va_arg(numbers, int));
