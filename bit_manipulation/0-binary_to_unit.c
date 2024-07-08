@@ -7,18 +7,18 @@
 unsigned int binary_to_uint(const char *b)
 {
 	unsigned int sum = 0;
-	unsigned int mult = 1;
 	int i;
-	if (*b == '\0')
+	if (b == '\0')
 		return (0);
-	for (i = 0; b[i];)
-		i++;
-	for (i -= 1; i >= 0; i--)
+	for (i = 0; b[i]; i++)
+	;
+	while (*b)
 	{
 		if (b[i] != '0' && b[i] != '1')
 			return (0);
-		sum += (b[i] - '0' * mult);
-		mult *= 2;
+		sum += (*b - '0') >> (i - 1);
+		b++;
+		i--;
 	}
 	return (sum);
 }
