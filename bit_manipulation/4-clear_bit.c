@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * clear bit - sets a bit to 0 at a given index position
+ * clear_bit - sets a bit to 0 at a given index position
  * @n: pointer to value
  * @index: position to change bit
  * Return: 1 if successful, -1 if fail
