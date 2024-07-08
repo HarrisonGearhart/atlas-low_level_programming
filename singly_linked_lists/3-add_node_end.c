@@ -3,7 +3,10 @@
 #include <stdlib.h>
 #include <string.h>
 /**
- *
+ * add_node_end - add a node to end of list_t
+ * @head: head of list_t
+ * @str: string to be added
+ * Return: Pointer to new node in list_t
 */
 list_t *add_node_end(list_t **head, const char *str)
 {
