@@ -1,5 +1,5 @@
 /**
- * set_bit - sets a bit value to 1 at given index position 
+ * set_bit - sets a bit value to 1 at given index position
  * @n: pointer to a value
  * @index: position to change bit
  * Return: 1 if sucessfull, -1 if fail
