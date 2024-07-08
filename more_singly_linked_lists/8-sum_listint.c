@@ -1,3 +1,6 @@
+#include "lists.h"
+#include <stdio.h>
+#include <stdlib.h>
 /**
  * sum_listint - returns the sum of all the data (n) of listint_t 
  * @head: head of listint_t
