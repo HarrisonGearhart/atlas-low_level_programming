@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * set_bit - sets a bit value to 1 at given index position
  * @n: pointer to a value
