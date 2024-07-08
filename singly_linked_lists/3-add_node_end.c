@@ -7,11 +7,11 @@
 */
 list_t *add_node_end(list_t **head, const char *str)
 {
-	listint_t *new;
-	listint_t *temp;
+	list_t *new;
+	list_t *temp;
 
 	temp = *head;
-	new = (listint_t *)malloc(sizeof(listint_t));
+	new = (list_t *)malloc(sizeof(list_t));
 
 	if (!new)
 		return (NULL);
