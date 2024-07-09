@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * append_text_to_file - appends text at the end of the file
  * @filename: name of the file to append
