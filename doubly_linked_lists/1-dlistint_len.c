@@ -2,7 +2,7 @@
 /**
  * dlistint_len - returns the number of elements in a list
  * @h: pointer to head of list
- * Return: Number of elements 
+ * Return: Number of elements
 */
 size_t dlistint_len(const dlistint_t *h)
 {
