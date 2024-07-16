@@ -2,14 +2,14 @@
 /**
  * hash_table_print - prints a hash table
  * @ht: hash table to print
- * Return: Void 
+ * Return: Void
 */
 void hash_table_print(const hash_table_t *ht)
 {
 	unsigned long int i;
 	hash_node_t *node;
 	int first = 1;
-	
+
 	if (ht == NULL)
 		return;
 	printf("{");
