@@ -2,7 +2,7 @@
 /**
  * hash_table_delete - deletes hash table
  * @ht: the hash table to delete
- * Return: Void 
+ * Return: Void
 */
 void hash_table_delete(hash_table_t *ht)
 {
