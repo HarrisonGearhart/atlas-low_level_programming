@@ -41,5 +41,5 @@ void print_array(int *array, int left, int right)
 	{
 		printf("%d, ", array[i]);
 	}
-	printf("%d\n, array[i]");
+	printf("%d\n", array[i]);
 }
