@@ -8,7 +8,7 @@
 */
 int binary_search(int *array, size_t size, int value)
 {
-	return (binary_search_recursion(array, 0, size - 1, value));
+	return (binary_search_recursive(array, 0, size - 1, value));
 }
 /**
  * binary_search_recursion - recursive function to find the index of value
@@ -17,17 +17,29 @@ int binary_search(int *array, size_t size, int value)
  * @value: value being searched
  * Return: index of value
 */
-int binary_search_recursion(int *array, int left, int right, int value)
+int binary_search_recursive(int *array, int left, int right, int value)
 {
+	int mid;
 
+	print_array(array, left, right);
+	mid = (left + right) / 2;
+
+	if (array[mid] == value)
+		return(mid);
+	if (left == right)
+		return (-1);
+	if (value > array[mid])
+		return (binary_search_recursive(array, mid + 1, right, value));
+	else
+		return (binary_search_recursive(array, left, mid - 1, value));
 }
 void print_array(int *array, int left, int right)
 {
 	int i;
-	printf("");
-	for ()
+	printf("Searching in array: ");
+	for (i = left; i < right; i++)
 	{
 		printf("%d, ", array[i]);
 	}
-	printf(%d, array[i]);
+	printf("%d\n, array[i]");
 }
