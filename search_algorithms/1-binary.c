@@ -21,6 +21,9 @@ int binary_search_recursive(int *array, int left, int right, int value)
 {
 	int mid;
 
+	if (!array)
+		return (-1);
+
 	print_array(array, left, right);
 	mid = (left + right) / 2;
 
