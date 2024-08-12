@@ -36,10 +36,17 @@ int binary_search_recursive(int *array, int left, int right, int value)
 	else
 		return (binary_search_recursive(array, left, mid - 1, value));
 }
-void print_array(int *array, int left, int right)
+/**
+ * print_array - prints array
+ * @array: array to print
+ * @left: left index
+ * @right: right index
+ * Return: void
+ */
+ void print_array(int *array, int left, int right)
 {
 	int i;
-	
+
 	printf("Searching in array: ");
 	for (i = left; i < right; i++)
 	{
