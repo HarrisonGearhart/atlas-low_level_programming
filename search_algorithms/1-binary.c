@@ -13,7 +13,8 @@ int binary_search(int *array, size_t size, int value)
 /**
  * binary_search_recursive - recursive function to find the index of value
  * @array: pointer to first element in array
- * @size: size of the array
+ * @left: left index
+ * @right: right index
  * @value: value being searched
  * Return: index of value
 */
