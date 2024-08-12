@@ -43,7 +43,7 @@ int binary_search_recursive(int *array, int left, int right, int value)
  * @right: right index
  * Return: void
  */
- void print_array(int *array, int left, int right)
+void print_array(int *array, int left, int right)
 {
 	int i;
 
